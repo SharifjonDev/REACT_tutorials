@@ -1,0 +1,42 @@
+.btn-dropdown {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0.5rem 0 0.5rem 5.063rem;
+}
+
+.btn-application {
+  font-family: "Mark Pro Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+  background: #ffcf23;
+  border-radius: 8px;
+  margin-top: 36px;
+  width: 196px;
+  height: 60px;
+  border: none;
+  transition: all 0.5s;
+}
+.btn-application:hover,
+.btn-weHelper:hover {
+  transform: scale(1.1);
+}
+
+.btn-weHelper {
+  padding: 25px 28.94px;
+  border-radius: 8px;
+  background: #ffcf23;
+  border: none;
+  outline: none;
+  transition: all 0.5s;
+  /**/
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  color: #000000;
+}

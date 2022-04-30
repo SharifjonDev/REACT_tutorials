@@ -1,0 +1,44 @@
+.table {
+  border: none;
+  border-collapse: collapse;
+  border: 1px solid #132347;
+  border-radius: 5px;
+}
+
+th,
+td {
+  padding: 1.29rem 1rem !important;
+  font-size: 1rem;
+}
+
+thead {
+  background: #7865ff;
+  color: #fff;
+}
+
+td {
+  font-size: 0.9rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+tr:nth-child(even) {
+  background: #102048;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+  th,
+  td {
+    color: #fff;
+    font-weight: 400;
+    padding: 0.68rem 1rem !important;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  th,
+  td {
+    font-size: 0.7rem;
+  }
+}

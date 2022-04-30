@@ -1,0 +1,12 @@
+@import "../../../styles/global.module.scss";
+.navLinkColor {
+  color: #fff;
+}
+
+.navLinkColorIcon {
+  background-color: #fff;
+}
+
+.navbar {
+  background: linear-gradient(to right, $white 48%, $black 48%);
+}

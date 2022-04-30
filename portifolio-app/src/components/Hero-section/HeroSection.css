@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.hero__section {
+  padding-top: 150px;
+}
+
+.hero__content p {
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.hero__title {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.hero__title span {
+  font-family: "Roboto", sans-serif !important;
+  height: 35px;
+  padding-left: 10px;
+  color: #7865ff;
+}
+
+.hire__btns {
+  margin-top: 50px;
+}
+
+.hire__btn {
+  background: #fff;
+  color: #0e1b31;
+}
+
+.hire__btn:hover {
+  color: #0e1b31;
+}
+
+.hire__btn a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero__img img {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  background: #7865ff;
+  margin-left: auto;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .hero__section {
+    padding-top: 90px !important;
+  }
+  .hero__content p {
+    font-size: 0.8rem;
+    line-height: 20px;
+  }
+  .hire__btns button {
+    display: block;
+    padding: 5px 20px;
+    font-size: 0.8rem;
+  }
+  .hero__img img {
+    width: 300px !important;
+    height: 300px !important;
+  }
+  .hero__title span {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .hero__content p {
+    font-size: 0.7rem;
+    line-height: 15px;
+  }
+
+  .hero__img img {
+    width: 230px !important;
+    height: 230px !important;
+  }
+  .hero__title {
+    margin-bottom: 5px !important;
+  }
+
+  @media only screen and (max-width: 576px) {
+    .hero__section {
+      position: relative;
+      padding-top: 80px !important;
+      padding-bottom: 20px;
+    }
+
+    .hero__img {
+      position: absolute;
+      top: 60px;
+      right: 30px;
+    }
+    .hero__img img {
+      width: 100px !important;
+      height: 100px !important;
+      margin: auto;
+    }
+    .hero__content {
+      margin-bottom: 30px;
+    }
+    .hero__content p {
+      padding-right: 80px;
+      margin-bottom: 20px;
+    }
+
+    .hero__desc {
+      line-height: 25px !important;
+      padding-right: 0 !important;
+    }
+    .hero__title {
+      font-size: 1.5rem;
+      margin-bottom: 0.6rem;
+      margin-top: 50px;
+    }
+    .hero__title span {
+      font-size: 1.5rem;
+    }
+    .hire__btns {
+      margin-top: 10px !important;
+    }
+  }
+}

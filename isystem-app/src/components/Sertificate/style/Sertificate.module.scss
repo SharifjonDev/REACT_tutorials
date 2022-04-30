@@ -1,0 +1,42 @@
+@import "../../../styles/toRemConvertor";
+@import "../../../styles/global.module.scss";
+
+.sertificateContainer {
+  border-radius: toRem(10);
+  padding: toRem(50);
+  background-color: $yellow;
+  position: relative;
+
+  h1 {
+    font-family: "Mark Pro Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: toRem(40);
+    line-height: toRem(35);
+    letter-spacing: 0.025em;
+    color: $black;
+    margin-bottom: toRem(80);
+  }
+
+  h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: toRem(25);
+    line-height: toRem(35);
+    letter-spacing: 0.025em;
+    color: $black;
+    width: toRem(407);
+    margin-bottom: toRem(180);
+  }
+}
+.stampSertificate {
+  position: absolute;
+  top: toRem(225);
+  left: toRem(449);
+}
+
+.sertificatePicture {
+  width: toRem(489);
+  height: toRem(304.02);
+  object-fit: fill;
+}

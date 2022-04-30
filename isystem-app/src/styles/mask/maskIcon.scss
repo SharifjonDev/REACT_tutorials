@@ -1,0 +1,31 @@
+@import "../toRemConvertor";
+.icon {
+  width: toRem(24);
+  height: toRem(24);
+  display: inline-block;
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+  mask-position: center;
+  vertical-align: middle;
+  background-color: #000;
+
+  &.icon-rightPointer {
+    mask-image: url("../../assest/RightPointer.svg");
+    width: toRem(12);
+    height: toRem(12);
+    margin-left: toRem(3);
+  }
+
+  &.icon-restange {
+    mask-image: url("../../assest/restange.svg");
+    width: toRem(42);
+    height: toRem(42);
+  }
+
+  &.icon-Restange {
+    mask-image: url("../../assest/Rectangle.svg");
+    width: toRem(10.5);
+    height: toRem(10.5);
+    margin-left: toRem(10);
+  }
+}

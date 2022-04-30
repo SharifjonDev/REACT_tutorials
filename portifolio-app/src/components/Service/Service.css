@@ -1,0 +1,48 @@
+.service__top h6 {
+  color: #7865ff;
+  margin-bottom: 15px;
+}
+
+.service__top h2 {
+  margin-bottom: 10px;
+}
+
+.single__service {
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #132347;
+  border-bottom: 1px solid #7865ff;
+  transition: 0.3s;
+}
+
+.single__service:hover {
+  transform: translateY(-15px);
+}
+
+.single__service h2 {
+  font-size: 1.4em;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.single__service p {
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.service__icon {
+  color: #7865ff;
+  font-size: 2.2rem;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+  .single__service h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  .single__service p {
+    font-size: 0.8rem;
+    line-height: 28px;
+  }
+}

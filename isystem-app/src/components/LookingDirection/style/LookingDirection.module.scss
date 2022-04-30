@@ -1,0 +1,24 @@
+@import "../../../styles/toRemConvertor";
+@import "../../../styles/global.module.scss";
+
+.mainTitle {
+  border-radius: toRem(10);
+  padding: toRem(60) 0 toRem(54) toRem(50);
+  background-color: $black;
+  margin-bottom: toRem(80);
+  h1 {
+    font-family: "Mark Pro Bold", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: toRem(40);
+    line-height: toRem(27);
+    letter-spacing: 0.025em;
+    color: $white;
+    margin-bottom: toRem(54);
+  }
+}
+
+.rightPointer {
+  width: toRem(12.81) !important;
+  height: toRem(12.81) !important;
+}

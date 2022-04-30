@@ -1,0 +1,50 @@
+@import "../../../styles/toRemConvertor";
+@import "../../../styles/global.module.scss";
+
+.weLearningTitle {
+  padding-top: toRem(80);
+  h1 {
+    font-family: "Mark Pro Bold", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: toRem(40);
+    line-height: toRem(10);
+    letter-spacing: 0.01em;
+    color: $black;
+    margin-bottom: toRem(75);
+  }
+}
+
+.informationGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: toRem(40);
+}
+
+.informationCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border: none;
+  padding: toRem(60) 0;
+  color: $white;
+  background-color: $black;
+  border-radius: toRem(10);
+  h2 {
+    font-family: "Mark Pro Medium", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: toRem(20);
+    line-height: toRem(27);
+    letter-spacing: 0.025em;
+    margin-bottom: toRem(20);
+    width: toRem(236);
+    height: toRem(54);
+  }
+
+  p {
+    width: toRem(320);
+  }
+}

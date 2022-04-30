@@ -1,0 +1,58 @@
+@import "../../../styles/global.module.scss";
+@import "../../../styles/toRemConvertor";
+.header {
+  position: relative;
+  height: toRem(790);
+  background: linear-gradient(to right, $white 48%, $black 48%);
+}
+
+.header h1 {
+  font-family: "Mark Pro Heavy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: toRem(60);
+  line-height: toRem(76);
+  letter-spacing: 0.01em;
+  width: toRem(302);
+  color: $black;
+  margin-top: toRem(140);
+  margin-bottom: toRem(40);
+}
+
+.iconRestange {
+  position: absolute;
+  top: toRem(140);
+  left: toRem(410);
+}
+
+.brakets-position {
+  position: absolute;
+  top: toRem(290);
+  left: toRem(450);
+}
+
+.homeBackground {
+  position: absolute;
+  right: toRem(340);
+  top: toRem(-40);
+
+  img {
+    width: toRem(318.29);
+    height: toRem(276.16);
+  }
+}
+
+.homeBackground2 {
+  position: absolute;
+  right: 0;
+  top: 270px;
+}
+
+.manPicture {
+  position: absolute;
+  top: toRem(-12);
+  right: 0;
+}
+
+//   background: #ffcf23;
+//   filter: blur(10px);
