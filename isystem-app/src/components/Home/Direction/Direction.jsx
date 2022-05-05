@@ -1,5 +1,5 @@
 import React from "react";
-import FetchCourses from "../FetchCourses/FetchCourses";
+import FetchCourses from "../FetchCourses";
 import Col from "../UI/Col";
 import Container from "../UI/Container";
 import Row from "../UI/Row";

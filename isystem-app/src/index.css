@@ -14,7 +14,7 @@
 }
 
 @font-face {
-  font-family: "Mark Pro Medium";
+  font-family: "Medium";
   src: url("//db.onlinewebfonts.com/t/a05747eaf46bae50f19dfa950b86befd.eot");
   src: url("//db.onlinewebfonts.com/t/a05747eaf46bae50f19dfa950b86befd.eot?#iefix")
       format("embedded-opentype"),
@@ -29,7 +29,7 @@
 }
 
 @font-face {
-  font-family: "Mark Pro Heavy";
+  font-family: "Heavy";
   src: url("//db.onlinewebfonts.com/t/72112afab388987941068c3f7a741a53.eot");
   src: url("//db.onlinewebfonts.com/t/72112afab388987941068c3f7a741a53.eot?#iefix")
       format("embedded-opentype"),
@@ -44,7 +44,7 @@
 }
 
 @font-face {
-  font-family: "Mark Pro Bold";
+  font-family: "Bold";
   src: url("//db.onlinewebfonts.com/t/01d273202731e44f0f1187f3afcaf156.eot");
   src: url("//db.onlinewebfonts.com/t/01d273202731e44f0f1187f3afcaf156.eot?#iefix")
       format("embedded-opentype"),
@@ -58,9 +58,6 @@
       format("svg");
 }
 
-$black: #000000;
-$white: #ffffff;
-$yellow: #ffcf23;
 * {
   margin: 0;
   padding: 0;
@@ -68,5 +65,12 @@ $yellow: #ffcf23;
 }
 
 body {
-  font-family: "Mark Pro", sans-serif;
+  font-family: "Mark Pro", sans-serif !important;
+}
+
+.btn {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  transition: all 0.5s !important;
 }

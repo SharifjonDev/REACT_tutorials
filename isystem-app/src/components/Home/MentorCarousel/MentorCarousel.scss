@@ -1,0 +1,131 @@
+@import "../../styles/toRemConvertor";
+@import "../../styles/global.module.scss";
+
+.row {
+  .mentor__tile {
+    font-family: "Mark Pro Bold", sans-serif;
+    font-style: normal;
+    font-size: toRem(40);
+    line-height: toRem(10);
+    letter-spacing: 0.025em;
+    color: $black;
+    margin: toRem(75) 0;
+  }
+  .carousel {
+    margin-bottom: toRem(95);
+    .carousel-indicators {
+      margin-bottom: toRem(-45) !important;
+      button {
+        width: toRem(50);
+        height: toRem(4);
+        border: none;
+        opacity: 1;
+        background: $black;
+        &.active {
+          background: $yellow;
+        }
+      }
+    }
+    .carousel-inner {
+      .carousel-item {
+        .carousel-div {
+          width: 23%;
+          color: $black;
+          background: $white;
+          img {
+            width: 100%;
+            border-radius: toRem(10);
+            margin-bottom: toRem(25);
+          }
+          h1 {
+            width: 50%;
+            font-family: "Mark Pro Heavy";
+            font-weight: 800;
+            font-size: toRem(20);
+            line-height: toRem(25);
+            padding-bottom: toRem(30);
+            border-bottom: toRem(1) solid $black;
+            margin-bottom: toRem(20);
+          }
+          h2 {
+            width: 42.1%;
+            font-family: "Mark Pro Medium";
+            font-weight: 500;
+            font-size: toRem(17);
+            line-height: toRem(25);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .row {
+    .carousel {
+      margin-bottom: toRem(85);
+      .carousel-indicators {
+        margin-bottom: toRem(-35) !important;
+        button {
+          width: toRem(30);
+          height: toRem(4);
+        }
+      }
+      .carousel-inner {
+        .carousel-item {
+          .carousel-div {
+            width: 23%;
+            img {
+              border-radius: toRem(5);
+              margin-bottom: toRem(15);
+            }
+            h1 {
+              font-size: toRem(15);
+              line-height: toRem(20);
+              padding-bottom: toRem(15);
+              margin-bottom: toRem(15);
+            }
+            h2 {
+              font-size: toRem(12);
+              line-height: toRem(20);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+  .row {
+    .carousel {
+      margin-bottom: toRem(95);
+      .carousel-indicators {
+        margin-bottom: toRem(-45) !important;
+        button {
+          width: toRem(50);
+        }
+      }
+      .carousel-inner {
+        .carousel-item {
+          .carousel-div {
+            width: 23%;
+            img {
+              border-radius: toRem(8);
+              margin-bottom: toRem(20);
+            }
+            h1 {
+              font-size: toRem(20);
+              padding-bottom: toRem(20);
+              margin-bottom: toRem(20);
+            }
+            h2 {
+              font-size: toRem(15);
+              line-height: toRem(20);
+            }
+          }
+        }
+      }
+    }
+  }
+}

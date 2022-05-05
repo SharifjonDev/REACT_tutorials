@@ -4,32 +4,32 @@ import "./Portfolio.css";
 
 const portfolio = [
   {
-    imgUrl: "https://svgshare.com/i/gWX.svg",
+    imgUrl: "https://i.ibb.co/5RdLccv/logo1.png",
     title: "Only Html and Css",
     url: "https://yulchiboev.netlify.app/",
   },
   {
-    imgUrl: "https://svgshare.com/i/gXu.svg",
+    imgUrl: "https://i.ibb.co/ZLMMpDG/logo2.png",
     title: "A Game Created Using Javascript",
     url: "https://rickgame.netlify.app",
   },
   {
-    imgUrl: "https://svgshare.com/i/gVy.svg",
+    imgUrl: "https://i.ibb.co/QkCxbTQ/logo3.png",
     title: "A Site Created Using One-Page React Js",
     url: "https://webdeveloperwebsite.netlify.app",
   },
   {
-    imgUrl: "https://svgshare.com/i/gWs.svg",
+    imgUrl: "https://i.ibb.co/T409ThV/logo4.png",
     title: "Guess My Number Game",
     url: "https://guessmynumberwebsite.netlify.app/",
   },
   {
-    imgUrl: "https://svgshare.com/i/gXD.svg",
+    imgUrl: "https://i.ibb.co/fnBLHD5/logo5.png",
     title: "Ali Baraka website (only desktop)",
     url: "https://alibaraka.netlify.app/",
   },
   {
-    imgUrl: "https://svgshare.com/i/gXk.svg",
+    imgUrl: "https://i.ibb.co/3sv9tPb/logo6.png",
     title: "Menejeer site",
     url: "https://menejeerwebsite.netlify.app/",
   },

@@ -9,7 +9,7 @@ const language = [
 const Award = () => {
   return (
     <div className="award__container">
-      <div className="award__item d-flex">
+      <div className="award__item d-flex justify-content-between">
         {language.map((item, index) => (
           <AwardItem key={index} title={item.title} text={item.desc} />
         ))}
@@ -20,7 +20,7 @@ const Award = () => {
 
 const AwardItem = ({ year, title, text }) => {
   return (
-    <div className="single__award w-50 pb-5 ms-3">
+    <div className="single__award pb-5">
       <h6 className="award__title">
         {title} - <span>{text}</span>
       </h6>

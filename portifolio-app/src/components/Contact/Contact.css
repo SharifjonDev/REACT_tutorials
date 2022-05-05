@@ -35,7 +35,7 @@
 
 @media only screen and (max-width: 576px) {
   .single__info-box {
-    padding: 15px;
+    padding: 10px;
   }
   .single__info-box p {
     font-size: 0.5rem;
