@@ -12,7 +12,7 @@ const Experience = () => {
             <h2>Experince</h2>
           </Col>
 
-          <Col lg="6" md="6">
+          <Col lg="6" md="6" style={{ zIndex: 0 }}>
             <div className="single__experience-container">
               <div className="single__experience">
                 <span className="experience__icon">
