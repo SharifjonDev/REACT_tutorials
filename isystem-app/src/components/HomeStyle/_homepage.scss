@@ -1,0 +1,17 @@
+@import "../../styles/color";
+
+.navbar__container__color {
+  background: linear-gradient(to right, $white 48%, $black 48%) !important;
+
+  .nav__link__color {
+    color: $white !important;
+  }
+
+  .nav__link__icon {
+    color: $white;
+  }
+}
+
+.helper__padding {
+  padding: 100px 0;
+}

@@ -1,0 +1,37 @@
+@import "../../styles/color";
+@import "../../styles/toRemConvertor";
+
+.direction__content__container {
+  margin-bottom: toRem(80);
+  padding: toRem(60) 0 toRem(54) toRem(50);
+  border-radius: toRem(10);
+
+  h1 {
+    font-family: "Bold", sans-serif;
+    font-size: toRem(40);
+    line-height: toRem(27);
+    letter-spacing: 0.025em;
+    color: $white;
+    margin-bottom: toRem(54);
+  }
+
+  .btn__helper {
+    padding: toRem(25) toRem(28.94);
+    border-radius: toRm(8);
+    background: $yellow;
+    transition: all 0.5s;
+    /**/
+    font-size: 1em;
+    line-height: toRem(10);
+    letter-spacing: 0.025em;
+    color: $black;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    i {
+      font-size: 1.2rem;
+    }
+  }
+}

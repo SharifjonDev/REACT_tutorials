@@ -1,0 +1,55 @@
+@import "../../styles/color";
+@import "../../styles/toRemConvertor";
+
+section {
+  .mentor__title {
+    font-family: "Bold", sans-serif;
+    font-size: toRem(40);
+    line-height: toRem(10);
+    letter-spacing: 0.025em;
+    color: $black;
+    margin: toRem(75) 0;
+  }
+
+  .carousel {
+    margin-bottom: toRem(95);
+    .carousel-indicators {
+      margin-bottom: toRem(-45) !important;
+      button {
+        width: toRem(50);
+        height: toRem(4);
+        border: none;
+        opacity: 1;
+        background: $black;
+        &.active {
+          background: $yellow;
+        }
+      }
+    }
+    .carousel-div {
+      width: 23%;
+      color: $black;
+      background: $white;
+      line-height: toRem(25);
+
+      img {
+        width: 100%;
+        border-radius: toRem(10);
+        margin-bottom: toRem(25);
+      }
+      h1 {
+        width: 50%;
+        font-family: "Heavy", sans-serif;
+        font-size: toRem(20);
+        padding-bottom: toRem(30);
+        border-bottom: toRem(1) solid $black;
+        margin-bottom: toRem(20);
+      }
+      h2 {
+        width: 42.1%;
+        font-family: "Medium", sans-serif;
+        font-size: toRem(17);
+      }
+    }
+  }
+}

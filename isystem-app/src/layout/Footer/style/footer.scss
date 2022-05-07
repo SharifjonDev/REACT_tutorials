@@ -1,0 +1,52 @@
+@import "../../../styles/color";
+@import "../../../styles/toRemConvertor";
+
+footer {
+  background: $yellow;
+  padding-top: 43px;
+  padding-bottom: 54px;
+
+  img {
+    width: toRem(124);
+    margin-bottom: toRem(14);
+  }
+
+  .footer__box {
+    width: 30%;
+    a {
+      text-decoration: none;
+      display: flex;
+      font-size: 1em;
+      line-height: toRem(28);
+      letter-spacing: 0.025em;
+      color: $blue !important;
+      transition: all 0.5s ease;
+
+      &:hover {
+        transform: translateY(-5px);
+      }
+      img {
+        width: auto;
+        margin-right: toRem(15);
+      }
+    }
+  }
+
+  .footer__location {
+    align-items: center;
+    img {
+      width: toRem(91.43);
+      height: toRem(87.66);
+      margin-right: toRem(48.57);
+    }
+    a {
+      font-family: "Poppins", sans-serif;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0.025em;
+      text-decoration-line: underline;
+      color: $blue;
+      width: toRem(185);
+    }
+  }
+}

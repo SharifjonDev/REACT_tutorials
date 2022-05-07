@@ -1,0 +1,63 @@
+@import "../../styles/color";
+@import "../../styles/toRemConvertor";
+
+.helper__box {
+  justify-content: space-between;
+  background-color: $white;
+  border-radius: toRem(10);
+  padding: toRem(50);
+
+  .helper__title {
+    color: $black;
+    letter-spacing: 0.025em;
+    width: 50%;
+
+    h3 {
+      font-family: "Medium", sans-serif;
+      font-size: toRem(25);
+      line-height: toRem(28);
+      margin-bottom: toRem(32);
+    }
+
+    p {
+      font-size: 1em;
+      line-height: toRem(25);
+      width: toRem(451);
+      margin: 0;
+    }
+  }
+
+  .helper__form {
+    width: 45%;
+
+    .form-label {
+      display: none;
+    }
+
+    .form-control {
+      width: 48%;
+      margin-bottom: toRem(10);
+      padding: toRem(20) toRem(15);
+      font-size: 1rem;
+      line-height: toRem(10);
+      letter-spacing: 0.025em;
+      color: $primary;
+      background: #f3f3f3;
+    }
+
+    .btn__send {
+      font-family: "Medium", sans-serif;
+      font-size: 1em;
+      line-height: 2rem;
+      letter-spacing: 0.025em;
+      color: $white;
+      padding: toRem(8) toRem(68.44);
+      border-radius: toRem(10);
+
+      i {
+        margin-left: toRem(10);
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

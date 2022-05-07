@@ -1,0 +1,43 @@
+@import "../../styles/color";
+@import "../../styles/toRemConvertor";
+
+.header__content {
+  position: relative;
+  padding-top: toRem(50);
+  padding-bottom: toRem(70);
+  background-color: $black;
+
+  h2 {
+    font-size: toRem(25);
+    line-height: toRem(35);
+    letter-spacing: 0.025em;
+    color: $white;
+    width: toRem(640);
+    margin-bottom: toRem(70);
+  }
+
+  .header__information {
+    color: $yellow;
+    letter-spacing: 0.025em;
+    line-height: toRem(35);
+    width: 30%;
+
+    h1 {
+      font-family: "Medium", sans-serif;
+      font-size: toRem(80);
+    }
+    p {
+      font-family: "Bold", sans-serif;
+      font-size: 1em;
+      padding-top: toRem(20);
+      padding-bottom: toRem(10);
+      border-bottom: toRem(3.5) solid $yellow;
+    }
+  }
+
+  .stamp__logo {
+    position: absolute;
+    top: toRem(-52);
+    left: toRem(1070);
+  }
+}

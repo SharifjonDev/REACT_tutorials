@@ -1,0 +1,40 @@
+@import "../../styles/color";
+@import "../../styles/toRemConvertor";
+
+.sertificate__container {
+  position: relative;
+  padding: toRem(50);
+  border-radius: toRem(10);
+  background-color: $yellow;
+  justify-content: space-between;
+  align-items: center;
+
+  .sertificate__title {
+    line-height: toRem(35);
+    letter-spacing: 0.025em;
+    color: $black;
+    h1 {
+      font-family: "Bold" !important;
+      font-size: toRem(40);
+      margin-bottom: toRem(80);
+    }
+
+    h3 {
+      font-size: toRem(25);
+      width: toRem(407);
+      margin-bottom: toRem(180);
+    }
+
+    img {
+      position: absolute;
+      top: toRem(225);
+      left: toRem(449);
+    }
+  }
+
+  .setificate__img {
+    width: toRem(489);
+    height: toRem(304.02);
+    object-fit: fill;
+  }
+}

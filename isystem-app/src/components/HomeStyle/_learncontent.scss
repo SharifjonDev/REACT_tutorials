@@ -1,0 +1,48 @@
+@import "../../styles/color";
+@import "../../styles/toRemConvertor";
+
+section {
+  .learn__title {
+    font-family: "Bold", sans-serif;
+    font-size: toRem(40);
+    line-height: toRem(10);
+    letter-spacing: 0.01em;
+    color: $black;
+    margin-top: toRem(80);
+    margin-bottom: toRem(75);
+  }
+
+  .learn__grid__system {
+    display: grid;
+    gap: toRem(40);
+    grid-template-columns: repeat(3, 1fr);
+
+    .learn__cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      padding: toRem(60) 0;
+      color: $white;
+      background-color: $black;
+      border-radius: toRem(10);
+      letter-spacing: 0.025em;
+
+      h2 {
+        font-family: "Medium", sans-serif;
+        font-size: toRem(20);
+        line-height: toRem(27);
+        margin-bottom: toRem(20);
+        width: toRem(236);
+        height: toRem(54);
+      }
+
+      p {
+        font-size: 1em;
+        line-height: toRem(25);
+        width: toRem(320);
+      }
+    }
+  }
+}

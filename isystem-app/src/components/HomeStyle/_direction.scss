@@ -1,0 +1,73 @@
+@import "../../styles/color";
+@import "../../styles/toRemConvertor";
+
+section {
+  .direction__info__title {
+    color: $black;
+    letter-spacing: 0.025em;
+    padding-top: toRem(90);
+
+    h2 {
+      font-family: "Bold", sans-serif;
+      font-size: toRem(40);
+      line-height: toRem(27);
+      margin: toRem(40) 0;
+    }
+    h3 {
+      font-size: toRem(25);
+      line-height: toRem(35);
+      width: toRem(675);
+      margin-bottom: toRem(60);
+    }
+  }
+
+  .direction__grid__system {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: toRem(60);
+
+    .direction__courses {
+      padding: toRem(50);
+      border-radius: toRem(10);
+      background-color: $silver;
+      transition: all 0.5s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+
+      img {
+        width: toRem(190);
+        height: toRem(130);
+      }
+
+      .direction__courses__title {
+        margin-bottom: 0;
+        letter-spacing: 0.025em;
+
+        h2 {
+          font-family: "Heavy", sans-serif;
+          font-size: toRem(35);
+          line-height: toRem(35);
+          color: $black;
+          width: toRem(240);
+        }
+
+        h3 {
+          font-size: toRem(24);
+          line-height: toRem(32);
+          color: $blue;
+        }
+      }
+    }
+  }
+
+  .default__desc {
+    font-size: 1em;
+    line-height: toRem(27);
+    letter-spacing: 0.025em;
+    color: $black;
+    margin-top: toRem(50);
+    margin-bottom: toRem(80);
+  }
+}

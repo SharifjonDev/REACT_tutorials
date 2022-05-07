@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "reactstrap";
-import "../HomeStyle/HomeStyle.scss";
+import "../HomeStyle/_header.scss";
 
 function Header() {
   return (
