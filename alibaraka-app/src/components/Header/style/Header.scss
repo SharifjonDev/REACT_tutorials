@@ -1,0 +1,84 @@
+@import "../../../global/global.scss";
+
+header {
+  background-image: url("https://i.ibb.co/9wKGry8/julian-hochgesang-YOxp-JLoq-X4-Y-unsplash-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+
+  h1 {
+    font-family: "Gilroy-ExtraBold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 67.3724px;
+    line-height: 83px;
+    color: $white;
+    margin-top: 246px;
+    margin-bottom: 0;
+    z-index: 1;
+  }
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.55);
+    width: 470px;
+    margin-bottom: 15px;
+  }
+  .btn-explore {
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 12px 33px;
+    background: $yellow;
+    border-radius: 26.5px;
+    transition: all 0.5s;
+    margin-bottom: 260px;
+    ////////////
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: $white;
+    /////////////
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    span i {
+      margin-left: 8px;
+    }
+  }
+
+  .position-absolute {
+    right: 0;
+    top: 120px;
+    width: 900px;
+    height: 605px;
+    background-image: url("https://svgshare.com/i/gbB.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    z-index: 0;
+  }
+  .rectangle__line {
+    width: 388px;
+    height: 388px;
+    transform: rotate(45deg);
+    border: 1px solid #60b45a;
+
+    .circle_line {
+      width: 179px;
+      height: 179px;
+      background: #fed372;
+      opacity: 0.5;
+      border-radius: 50%;
+      padding: 40.73px 0 48.73px 60px;
+      img {
+        transform: rotate(311deg);
+      }
+    }
+  }
+}

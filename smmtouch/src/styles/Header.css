@@ -1,0 +1,139 @@
+header {
+  background: linear-gradient(
+    95deg,
+    rgb(26, 134, 234) 20%,
+    rgb(104, 183, 255) 80%
+  );
+  padding-top: 219px;
+  height: 923px;
+}
+
+header .header__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+header .header__title h1 {
+  font-family: Gilroy-Bold, sans-serif;
+  font-size: 3.125rem;
+  line-height: 3.4375rem;
+  margin-bottom: 30px;
+}
+
+header .header__title p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: 39px;
+  width: 80%;
+}
+
+header .header__title .btn_ins {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  padding: 0 30px;
+  min-height: 48px;
+  background-color: #fff;
+  color: #00537d;
+  border-radius: 32px;
+  width: 300px;
+  font-family: Gilroy-Bold, sans-serif;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+header .header__title .btn_ins i {
+  margin-right: 11px;
+  font-size: 1.7rem;
+}
+
+header .header__title .btn_ins:hover {
+  background-color: #263238;
+  color: #fff;
+}
+
+header .header_img {
+  width: 100%;
+  text-align: end;
+}
+
+.header__shrink {
+  top: 0;
+}
+
+@media only screen and (min-width: 720px) and (max-width: 960px) {
+  header {
+    height: 757px;
+    padding-top: 151px;
+  }
+
+  header .header__title h1 {
+    font-size: 2rem;
+    line-height: 2.375rem;
+    margin-bottom: 24px;
+  }
+
+  header .header__title p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-bottom: 42px;
+    width: 70%;
+  }
+
+  header .header__title .btn_ins {
+    color: #2691f4;
+    width: 290px;
+    font-family: Gilroy-Bold, sans-serif;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  header {
+    height: 688px;
+    padding-top: 115px;
+  }
+
+  header .container .row {
+    flex-direction: column;
+  }
+
+  header .container .row .col-xl-7 {
+    display: none;
+  }
+
+  header .container .row .col-xl-5 {
+    display: none;
+  }
+
+  header .container .row .col-sm-12 {
+    display: block !important;
+    width: 100%;
+  }
+
+  header .header__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header .header__title h1 {
+    font-size: 1.5625rem;
+    line-height: 2rem;
+    font-weight: 800;
+    margin-bottom: 18px;
+  }
+
+  header .header__title p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    width: 72%;
+  }
+
+  header .header__title .btn_ins {
+    display: none;
+  }
+}

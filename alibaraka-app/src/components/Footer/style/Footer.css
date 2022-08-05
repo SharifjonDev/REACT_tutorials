@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../fonts/Gilroy-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy-Light.ttf");
+}
+
+::-webkit-scrollbar {
+  width: 22px;
+  background: #037b35;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1.5rem;
+  background: #fcbd17;
+}
+
+body {
+  position: relative;
+}
+
+footer {
+  z-index: 0;
+  background: #037b35;
+  padding-top: 90px;
+}
+
+footer .footer__location img {
+  width: 87px;
+  height: 78px;
+  margin-bottom: 27px;
+}
+
+footer .footer__location a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  height: 100px;
+  margin-bottom: 21px;
+}
+
+footer .footer__box {
+  width: 33.33%;
+}
+
+footer .footer__box h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+footer .footer__box p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #60b45a;
+}
+/*# sourceMappingURL=Footer.css.map */

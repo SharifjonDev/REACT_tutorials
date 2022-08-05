@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../fonts/Gilroy-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy-Light.ttf");
+}
+
+::-webkit-scrollbar {
+  width: 22px;
+  background: #037b35;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1.5rem;
+  background: #fcbd17;
+}
+
+body {
+  position: relative;
+}
+
+header {
+  background-image: url("https://i.ibb.co/9wKGry8/julian-hochgesang-YOxp-JLoq-X4-Y-unsplash-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}
+
+header h1 {
+  font-family: "Gilroy-ExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 67.3724px;
+  line-height: 83px;
+  color: #ffffff;
+  margin-top: 246px;
+  margin-bottom: 0;
+  z-index: 1;
+}
+
+header p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.55);
+  width: 470px;
+  margin-bottom: 15px;
+}
+
+header .btn-explore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  outline: none;
+  padding: 12px 33px;
+  background: #fcbd17;
+  border-radius: 26.5px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-bottom: 260px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+header .btn-explore:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+header .btn-explore span i {
+  margin-left: 8px;
+}
+
+header .position-absolute {
+  right: 0;
+  top: 120px;
+  width: 900px;
+  height: 605px;
+  background-image: url("https://svgshare.com/i/gbB.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  z-index: 0;
+}
+
+header .rectangle__line {
+  width: 388px;
+  height: 388px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border: 1px solid #60b45a;
+}
+
+header .rectangle__line .circle_line {
+  width: 179px;
+  height: 179px;
+  background: #fed372;
+  opacity: 0.5;
+  border-radius: 50%;
+  padding: 40.73px 0 48.73px 60px;
+}
+
+header .rectangle__line .circle_line img {
+  -webkit-transform: rotate(311deg);
+          transform: rotate(311deg);
+}
+/*# sourceMappingURL=Header.css.map */

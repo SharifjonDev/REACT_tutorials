@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../fonts/Gilroy-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy-Light.ttf");
+}
+
+::-webkit-scrollbar {
+  width: 22px;
+  background: #037b35;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1.5rem;
+  background: #fcbd17;
+}
+
+body {
+  position: relative;
+}
+
+.about__container {
+  position: relative;
+  margin-bottom: 250px;
+}
+
+.about__container .about__cloudy {
+  position: absolute;
+  top: -160px;
+  right: 0;
+  z-index: 1;
+}
+
+.about__container .about__title {
+  color: #000000;
+}
+
+.about__container .about__title h2 {
+  font-family: "Gilroy-ExtraBold";
+  font-style: normal;
+  font-size: 56px;
+  line-height: 54px;
+  text-transform: uppercase;
+  margin-top: 171px;
+  margin-bottom: 35px;
+}
+
+.about__container .about__title p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  width: 484px;
+  margin-bottom: 44px;
+}
+
+.about__container .about__title .btn-about {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #037b35;
+  border-radius: 26px;
+  padding: 10px 35px;
+  margin-right: 2px;
+  border: 1px solid transparent;
+  background: transparent;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.about__container .about__title .btn-about:hover {
+  border: 1px solid #037b35;
+}
+
+.about__container .position-relative .vektor1 {
+  margin-top: 112px;
+  z-index: 0;
+}
+
+.about__container .position-relative .vektor2 {
+  position: absolute;
+  top: 100px;
+}
+
+.about__container .position-relative .vektor3 {
+  position: absolute;
+  top: 269px;
+}
+
+.about__container .position-relative .vektor3 .line__vektor3 {
+  width: 270px;
+  height: 25px;
+  background: rgba(0, 0, 0, 0.25);
+  opacity: 0.99;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  border-radius: 100px;
+}
+/*# sourceMappingURL=About.css.map */

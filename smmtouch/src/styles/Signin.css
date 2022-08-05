@@ -1,0 +1,10 @@
+section {
+  background: linear-gradient(
+    95deg,
+    rgb(26, 134, 234) 20%,
+    rgb(104, 183, 255) 80%
+  );
+  padding-top: 219px;
+  text-align: center;
+  height: 150vh;
+}

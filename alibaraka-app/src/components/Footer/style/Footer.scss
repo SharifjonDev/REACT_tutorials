@@ -1,0 +1,48 @@
+@import "../../../global/global.scss";
+
+footer {
+  z-index: 0;
+  background: $green;
+  padding-top: 90px;
+
+  .footer__location {
+    img {
+      width: 87px;
+      height: 78px;
+      margin-bottom: 27px;
+    }
+
+    a {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      color: $white;
+      text-decoration: none;
+      height: 100px;
+      margin-bottom: 21px;
+    }
+  }
+
+  .footer__box {
+    width: 33.33%;
+    h5 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+    p {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #60b45a;
+    }
+  }
+}

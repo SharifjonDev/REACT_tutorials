@@ -65,4 +65,11 @@
     top: toRem(-12);
     right: 0;
   }
+
+  .text_photo {
+    position: absolute;
+    top: 150px;
+    right: 350px;
+    z-index: 0;
+  }
 }

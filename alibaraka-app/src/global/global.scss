@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../fonts/Gilroy-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy-Light.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+$white: #ffffff;
+$yellow: #fcbd17;
+$black: #000000;
+$green: #037b35;
+$blue: #1e252b;
+
+::-webkit-scrollbar {
+  width: 22px;
+  background: $green;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1.5rem;
+  background: $yellow;
+}
+
+body {
+  position: relative;
+}

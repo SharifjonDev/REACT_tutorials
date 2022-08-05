@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../fonts/Gilroy-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy-Light.ttf");
+}
+
+::-webkit-scrollbar {
+  width: 22px;
+  background: #037b35;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1.5rem;
+  background: #fcbd17;
+}
+
+body {
+  position: relative;
+}
+
+.carousel {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carousel .visually {
+  font-family: "Gilroy-Light";
+  font-size: 1.2rem;
+  color: #037b35;
+  text-align: left;
+}
+
+.carousel__img {
+  height: 170px !important;
+  opacity: 20%;
+  right: 0;
+  position: absolute;
+  width: 100%;
+  -o-object-fit: inherit;
+     object-fit: inherit;
+}
+
+.carousel-item img {
+  margin: 0 42px;
+}
+/*# sourceMappingURL=Carousel.css.map */

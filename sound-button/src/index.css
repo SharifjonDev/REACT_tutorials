@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Mark Pro Medium";
+  src: url("//db.onlinewebfonts.com/t/a05747eaf46bae50f19dfa950b86befd.eot");
+  src: url("//db.onlinewebfonts.com/t/a05747eaf46bae50f19dfa950b86befd.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/a05747eaf46bae50f19dfa950b86befd.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/a05747eaf46bae50f19dfa950b86befd.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/a05747eaf46bae50f19dfa950b86befd.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/a05747eaf46bae50f19dfa950b86befd.svg#Mark Pro Medium")
+      format("svg");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mark Pro Medium", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}

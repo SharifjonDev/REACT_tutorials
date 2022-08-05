@@ -30,7 +30,7 @@ function HeaderBottom() {
           <Col xl="5">
             <img
               className="stamp__logo"
-              src="https://svgshare.com/i/gX0.svg"
+              src="https://i.ibb.co/bLNL7S3/Group-1281.png"
               alt="stampWhite"
             />
           </Col>

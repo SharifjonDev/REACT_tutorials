@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../fonts/Gilroy-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy-Light.ttf");
+}
+
+::-webkit-scrollbar {
+  width: 22px;
+  background: #037b35;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1.5rem;
+  background: #fcbd17;
+}
+
+body {
+  position: relative;
+}
+
+@font-face {
+  font-family: "ZonaPro";
+  src: url("../../../fonts/ZonaPro-Thin.otf");
+}
+
+.navbar__shrink {
+  -webkit-box-shadow: 2px 2px 4px -2px #fff;
+          box-shadow: 2px 2px 4px -2px #fff;
+  background-color: #fff;
+}
+
+.navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 20px !important;
+  padding-bottom: 0 !important;
+  z-index: 9999;
+}
+
+.navbar .navbar-brand a img {
+  width: 87px;
+  height: 78px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+  font-family: "Gilroy-Light", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.75px;
+  line-height: 18px;
+  padding: 8px 20px !important;
+}
+
+.navbar .collapse .navbar-nav .nav-item span {
+  margin-left: 59.63px;
+  margin-right: 11.25px;
+}
+
+.navbar .collapse .navbar-nav .nav-item span img {
+  width: 33.75px;
+  height: 33.75px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .phoneNumber a {
+  font-family: "ZonaPro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 15px;
+  color: #037b35;
+  text-decoration: none;
+}
+/*# sourceMappingURL=Navbar.css.map */

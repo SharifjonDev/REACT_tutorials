@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../fonts/Gilroy-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy-Light.ttf");
+}
+
+::-webkit-scrollbar {
+  width: 22px;
+  background: #037b35;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1.5rem;
+  background: #fcbd17;
+}
+
+body {
+  position: relative;
+}
+
+.footer__menu {
+  padding-top: 27px;
+  padding-bottom: 35px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer__menu .footerMenu__title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 17px;
+  color: #ffffff;
+  margin-top: 3.38px;
+}
+
+.footer__menu .footer__logo img {
+  margin-left: 21.25px;
+}
+/*# sourceMappingURL=FooterMenu.css.map */

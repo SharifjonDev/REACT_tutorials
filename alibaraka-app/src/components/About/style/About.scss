@@ -1,0 +1,80 @@
+@import "../../../global/global.scss";
+
+.about__container {
+  position: relative;
+  margin-bottom: 250px;
+
+  .about__cloudy {
+    position: absolute;
+    top: -160px;
+    right: 0;
+    z-index: 1;
+  }
+
+  .about__title {
+    color: $black;
+
+    h2 {
+      font-family: "Gilroy-ExtraBold";
+      font-style: normal;
+      font-size: 56px;
+      line-height: 54px;
+      text-transform: uppercase;
+      margin-top: 171px;
+      margin-bottom: 35px;
+    }
+    p {
+      font-family: "Roboto";
+      font-style: normal;
+      font-size: 16px;
+      line-height: 26px;
+      width: 484px;
+      margin-bottom: 44px;
+    }
+
+    .btn-about {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      color: #037b35;
+      border-radius: 26px;
+      padding: 10px 35px;
+      margin-right: 2px;
+      border: 1px solid transparent;
+      background: transparent;
+      transition: all 0.5s;
+      ///////////////
+      &:hover {
+        border: 1px solid #037b35;
+      }
+    }
+  }
+
+  .position-relative {
+    .vektor1 {
+      margin-top: 112px;
+      z-index: 0;
+    }
+
+    .vektor2 {
+      position: absolute;
+      top: 100px;
+    }
+
+    .vektor3 {
+      position: absolute;
+      top: 269px;
+
+      .line__vektor3 {
+        width: 270px;
+        height: 25px;
+        background: rgba(0, 0, 0, 0.25);
+        opacity: 0.99;
+        filter: blur(10px);
+        border-radius: 100px;
+      }
+    }
+  }
+}

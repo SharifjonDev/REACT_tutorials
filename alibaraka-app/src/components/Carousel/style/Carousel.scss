@@ -1,0 +1,29 @@
+@import "../../../global/global.scss";
+
+.carousel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .visually {
+    font-family: "Gilroy-Light";
+    font-size: 1.2rem;
+    color: $green;
+    text-align: left;
+  }
+}
+
+.carousel__img {
+  height: 170px !important;
+  opacity: 20%;
+  right: 0;
+  position: absolute;
+  width: 100%;
+  object-fit: inherit;
+}
+
+.carousel-item img {
+  margin: 0 42px;
+}

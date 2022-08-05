@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Container } from "reactstrap";
 import "./style/Navbar.scss";
 
@@ -29,42 +29,42 @@ const Navbar = (props) => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul className={`navbar-nav me-auto mb-2 mb-lg-0 ${props.display}`}>
+            <ul className={`navbar-nav me-auto mb-2 mb-lg-0`}>
               <li className="nav-item">
-                <NavLink
+                <a
                   className=" nav-link nav__link"
                   aria-current="page"
-                  to="/course-blog"
+                  href="#course"
                 >
                   Kurslar
-                </NavLink>
+                </a>
               </li>
               <li className="nav-item">
-                <NavLink className=" nav-link nav__link" to="/">
+                <a className=" nav-link nav__link" href="#about">
                   Biz haqimizda
-                </NavLink>
+                </a>
               </li>
               <li className="nav-item">
-                <NavLink className=" nav-link nav__link" to="/cantact-blog">
+                <a className=" nav-link nav__link" href="#contact">
                   Bog’lanish
-                </NavLink>
+                </a>
               </li>
             </ul>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink
-                  className={`nav-link nav__link__right d-flex ${props.className}`}
+                <a
+                  className={`nav-link nav__link__right d-flex text-white`}
                   aria-current="page"
-                  to="/about-blog"
+                  href="#accept"
                 >
                   Kirish
                   <i className="ri-arrow-right-line"></i>
-                </NavLink>
+                </a>
               </li>
               <li className="nav-item">
                 <div className="dropdown">
                   <button
-                    className={`btn dropdown-toggle btn__dropdown ${props.className}`}
+                    className={`btn dropdown-toggle btn__dropdown text-white  `}
                     type="button"
                     id="dropdownMenuButton1"
                     data-bs-toggle="dropdown"
@@ -77,14 +77,14 @@ const Navbar = (props) => {
                     aria-labelledby="dropdownMenuButton1"
                   >
                     <li>
-                      <Link className="dropdown-item" to="/eng">
+                      <a className="dropdown-item" href="#eng">
                         ENG
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/rus">
+                      <a className="dropdown-item" href="#rus">
                         RUS
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </div>

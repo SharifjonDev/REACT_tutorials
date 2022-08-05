@@ -1,0 +1,101 @@
+@import "../../../global/global.scss";
+
+.contact__container {
+  margin-bottom: 165px;
+
+  .contact__box {
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 8px 28px rgba(83, 83, 83, 0.15);
+
+    .restange__green {
+      position: absolute;
+      background: #60b45a;
+      width: 184px;
+      height: 184px;
+      top: 220px;
+      right: 601px;
+      transform: rotate(45deg);
+    }
+
+    .circle__orenge {
+      background: #fed372;
+      border-radius: 50%;
+      width: 206px;
+      height: 206px;
+      position: absolute;
+      top: 564px;
+      right: -155px;
+    }
+
+    img {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    .contact__title {
+      padding: 0 40px;
+      color: $black;
+
+      h2 {
+        font-family: "Gilroy-ExtraBold";
+        font-style: normal;
+        font-size: 29px;
+        line-height: 28px;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+        width: 325px;
+      }
+      p {
+        font-family: "Roboto";
+        font-style: normal;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 22px;
+      }
+    }
+    .contact__form {
+      padding: 0 40px;
+
+      input,
+      textarea {
+        font-family: "Gilroy-Light";
+        font-style: normal;
+        font-size: 15px;
+        line-height: 60px;
+        color: $black;
+        background: #f8f8f8;
+        border: 1px solid #e7e7e7;
+        border-radius: 6px;
+        padding-left: 24px;
+      }
+
+      input {
+        width: 49%;
+        margin-bottom: 39px;
+      }
+
+      textarea {
+        height: 140px;
+        margin-bottom: 42px;
+      }
+
+      #email {
+        margin-right: 10px;
+      }
+
+      .btn-message {
+        border: none;
+        background: $green;
+        border-radius: 30px;
+        ////////////////////
+        font-family: "Gilroy-ExtraBold";
+        font-style: normal;
+        font-size: 15px;
+        line-height: 60px;
+        color: $white;
+        margin-bottom: 44px;
+      }
+    }
+  }
+}

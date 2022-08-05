@@ -1,0 +1,18 @@
+{
+  "register": [
+    {
+      "login": "Sharifjon545",
+      "email": "SharifjonYulchiboevDev@gmail.com",
+      "password": "sharifjon",
+      "repeatPassword": "sharifjon",
+      "id": 1
+    },
+    {
+      "login": "Sharifjon545",
+      "email": "SharifjonYulchiboevDev@gmail.com",
+      "password": "sharifjo",
+      "repeatPassword": "sharifjo",
+      "id": 2
+    }
+  ]
+}

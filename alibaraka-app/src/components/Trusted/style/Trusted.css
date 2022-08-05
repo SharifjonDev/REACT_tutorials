@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../fonts/Gilroy-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy-Light.ttf");
+}
+
+::-webkit-scrollbar {
+  width: 22px;
+  background: #037b35;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1.5rem;
+  background: #fcbd17;
+}
+
+body {
+  position: relative;
+}
+
+.trusted {
+  position: relative;
+  margin-top: 170px;
+}
+
+.trusted .trusted__flag {
+  position: absolute;
+  top: -290px;
+  left: 50px;
+}
+
+.trusted .trusted__title h1 {
+  font-family: "Gilroy-ExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #037b35;
+  width: 482px;
+}
+
+.trusted .trusted__title p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #1e252b;
+  width: 488px;
+  margin-bottom: 28px;
+}
+
+.trusted .collapse__box {
+  border: 1px solid #e7e7e7;
+  border-radius: 20px;
+}
+
+.trusted .collapse__box .btn-collepse {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 30px 40px 20px 40px;
+}
+
+.trusted .collapse__box .btn-collepse h3 {
+  font-family: "Gilroy-ExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  width: 238px;
+  text-align: left;
+  color: #037b35;
+}
+
+.trusted .collapse__box .btn-collepse span i {
+  width: 25px;
+  font-size: 2rem;
+  color: #037b35;
+}
+
+.trusted .collapse__box .btn-collepse .colorYellow {
+  color: #fcbd17;
+}
+/*# sourceMappingURL=Trusted.css.map */

@@ -17,12 +17,12 @@ function Header() {
             />
             <img
               className="brakets-icon"
-              src="https://i.ibb.co/LP4qNkM/Frame-8.png"
+              src="https://i.ibb.co/wSrDPWd/Frame-8.png"
               alt="Frame-8"
               border="0"
             />
             <img
-              src="https://i.ibb.co/pZs1BsH/Group-1177.png"
+              src="https://i.ibb.co/X3PTjw6/Group-1177.png"
               alt="Group-1177"
               border="0"
             />
@@ -35,17 +35,22 @@ function Header() {
           <Col xl="6">
             <img
               className="alphabet1"
-              src="https://svgshare.com/i/gYY.svg"
+              src="https://i.ibb.co/hdBcpLz/Vector-860.png"
               alt=""
             />
             <img
               className="alphabet2"
-              src="https://svgshare.com/i/gYN.svg"
+              src="https://i.ibb.co/rvcByRg/Vector-861.png"
+              alt=""
+            />
+            <img
+              className="text_photo"
+              src="https://i.ibb.co/HdfjMgr/Group-1180.png"
               alt=""
             />
             <img
               className="manPicture"
-              src="https://svgshare.com/i/gXj.svg"
+              src="https://i.ibb.co/0cg476N/unsplash-h87-A5-Ieg1yw-1.png"
               alt="wonderfulboy"
             />
           </Col>

@@ -1,0 +1,68 @@
+@import "../../../global/global.scss";
+
+.trusted {
+  position: relative;
+  margin-top: 170px;
+
+  .trusted__flag {
+    position: absolute;
+    top: -290px;
+    left: 50px;
+  }
+
+  .trusted__title {
+    h1 {
+      font-family: "Gilroy-ExtraBold";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 35px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: $green;
+      width: 482px;
+    }
+    p {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 26px;
+      color: $blue;
+      width: 488px;
+      margin-bottom: 28px;
+    }
+  }
+
+  .collapse__box {
+    border: 1px solid #e7e7e7;
+    border-radius: 20px;
+
+    .btn-collepse {
+      outline: none;
+      box-shadow: none;
+      padding: 30px 40px 20px 40px;
+
+      h3 {
+        font-family: "Gilroy-ExtraBold";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        width: 238px;
+        text-align: left;
+        color: $green;
+      }
+      span i {
+        width: 25px;
+        font-size: 2rem;
+        color: $green;
+      }
+
+      .colorYellow {
+        color: $yellow;
+      }
+    }
+  }
+}

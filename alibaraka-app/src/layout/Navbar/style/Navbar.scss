@@ -1,0 +1,61 @@
+@import "../../../global/global.scss";
+
+@font-face {
+  font-family: "ZonaPro";
+  src: url("../../../fonts/ZonaPro-Thin.otf");
+}
+
+.navbar__shrink {
+  box-shadow: 2px 2px 4px -2px #fff;
+  background-color: #fff;
+}
+.navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 20px !important;
+  padding-bottom: 0 !important;
+  z-index: 9999;
+  .navbar-brand {
+    a img {
+      width: 87px;
+      height: 78px;
+    }
+  }
+  .collapse {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          font-family: "Gilroy-Light", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15.75px;
+          line-height: 18px;
+          padding: 8px 20px !important;
+        }
+
+        span {
+          margin-left: 59.63px;
+          margin-right: 11.25px;
+          img {
+            width: 33.75px;
+            height: 33.75px;
+          }
+        }
+
+        .phoneNumber {
+          a {
+            font-family: "ZonaPro", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13.5px;
+            line-height: 15px;
+            color: #037b35;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

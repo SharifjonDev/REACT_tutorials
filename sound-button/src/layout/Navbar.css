@@ -1,0 +1,33 @@
+.navbar {
+  padding: 10px 0;
+}
+
+.navbar .container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .container .navbar-brand {
+  font-size: 2rem;
+  color: #000;
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 20px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 1.2rem;
+  color: #000 !important;
+}
+
+.navbar-nav .nav-item .active {
+  color: red !important;
+}

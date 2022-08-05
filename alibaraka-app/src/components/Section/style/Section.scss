@@ -1,0 +1,70 @@
+@import "../../../global/global.scss";
+
+.production {
+  background-image: url("https://svgshare.com/i/gbC.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 0;
+
+  .production__title {
+    color: $black;
+    margin-top: 117px;
+    h1 {
+      font-family: "Gilroy-ExtraBold";
+      font-style: normal;
+      font-size: 56px;
+      line-height: 54px;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+    p {
+      font-family: "Roboto";
+      font-style: normal;
+      font-size: 16px;
+      line-height: 26px;
+      color: $black;
+      margin-bottom: 42px;
+      width: 484px;
+    }
+  }
+
+  .products__box {
+    padding: 17.48px;
+    margin-bottom: 13.32px;
+    border-radius: 8.325px;
+    border: 3px solid #d9dcec;
+    transition: all 0.5s;
+    /////=====hover=====///////////
+    &:hover {
+      border: 3px solid #037b35;
+    }
+    ///////////////
+    img {
+      width: 206.46px;
+      height: 166.5px;
+      margin-right: 24.98px;
+    }
+
+    .products__title {
+      color: $black;
+      h2 {
+        font-family: "Gilroy-ExtraBold";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 22px;
+        text-transform: uppercase;
+        width: 208px;
+        margin-bottom: 13px;
+      }
+      p {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11.655px;
+        line-height: 20px;
+        width: 195.64px;
+      }
+    }
+  }
+}
